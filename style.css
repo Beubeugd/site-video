@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+body {
+
+    background: linear-gradient(to bottom right, black, #171616);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  font-family: 'Monomaniac One', sans-serif;
+}
+
+.titre {
+
+  color: orange;
+    text-align: center;
+}
+
+.video-container {
+  display: inline-block;
+  margin: 20px;
+}
+
+video {
+  width: 300px;
+  height: 200px;
+}
+
+.grid {
+
+  max-width: 1300px;
+  width: 80%;
+  margin: 30px auto;
+ 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px) ;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+ 
+ 
+}
+
+a {
+
+   text-decoration: none;
+  color: orange;
+
+
+}

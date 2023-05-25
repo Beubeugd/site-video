@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+* {
+	text-align: center;
+
+
+}
+
+body {
+	background: linear-gradient(to bottom right, black, #171616);
+	background-repeat: no-repeat;
+	background-size: 1500px;
+}
+
+.titre {
+
+	font-size: 50px;
+	color: orange;
+	font-family: 'Monomaniac One', sans-serif;
+
+	text-decoration: underline;
+	
+
+}
+
+video {
+	height: 500px;
+	width: auto;
+}
